@@ -1,0 +1,72 @@
+.card{
+    margin: 5px;
+}
+
+.infoContainer{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.03);
+    padding-top: 60px;
+    border-radius: 20px;
+    height: 140px;
+    width: 294px;
+    border-radius: 20px;
+}
+
+.cardImage{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 60px);
+    bottom: 0px;
+    border-radius: 10px;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.double{
+    margin: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    /* price text */
+
+    color: #6A6969;
+}
+
+.pokeName{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+}
+
+.pokeRarity{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0F6DB0;
+}
+
+.selectCard{
+    position: relative;
+    height: 47.36666488647461px;
+    width: 217.23333740234375px;
+    background: #FDCE29;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.07);
+    border-radius: 25px;
+    top: -30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 0;
+}

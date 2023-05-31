@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Poppins, Calibri, sans-serif;
 }
 
 .App-logo {
@@ -26,6 +27,35 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.cartButton{
+  position: absolute;
+  bottom: 0em;
+  height: 7em;
+  width: 100%;
+  background: linear-gradient(transparent 0%, white 100% );
+}
+
+.viewCart{
+  transition: all .2s;
+  cursor: pointer;
+  position: absolute;
+  width: 108px;
+  height: 41px;
+  left: 50%;
+  bottom: 40px;
+  background-color:#298BFD;
+  color: white;
+  border-radius: 1.5em;
+  border: none;
+  box-shadow: 1px 1px 5px rgba(74, 74, 74, 0.591);
+}
+
+.viewCart:hover{
+  transform: scale(1.005);
+  background-color: #3e97fd;
+  box-shadow: 2px 2px 5px rgba(74, 74, 74, 0.591);
 }
 
 @keyframes App-logo-spin {

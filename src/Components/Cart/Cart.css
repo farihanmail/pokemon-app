@@ -1,0 +1,152 @@
+@import url(../../CSS/theme.css);
+
+.cartModal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #bababa69;
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+.cartImage{
+    border-radius: .1em;
+    height: 8rem;
+    box-shadow: 1px 1px 5px #8b8b8bc9;
+}
+
+.modal{
+    border-radius: 20px;
+    background: white;
+    transform: translate( 2%, 17%);
+    height: 70%;
+    width: calc(96% - 2em);
+    padding: 1em;
+}
+
+.pokeName{
+    margin: 0 auto;
+}
+
+.pokePrice{
+    margin:0 0 2em 0;
+    font-size: 1em;
+}
+
+.pokeStock{
+    font-size: 1.2em;
+}
+
+.stockVal{
+    color: red;
+    font-weight: bold;
+}
+
+.itemChosen{
+    padding:2em;
+    display: flex;
+    flex-direction: row;
+}
+
+.itemImage{
+    margin: 0 1em 0 0;
+}
+
+.itemInfo{
+    margin: 0 auto 0 0;
+    text-align: left;
+}
+
+.unitTotal{
+
+}
+
+.unitTotal{
+    display: flex;
+    flex-direction: row;
+}
+
+.closeBtn{
+    cursor: pointer;
+    position: absolute;
+    height: 2em;
+    width: 2em;
+    border-radius: .5em;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    bottom: -1em;
+}
+
+.closeBtn:hover{
+    transform: scale(1.005);
+    background-color: #f72e2e;
+    box-shadow: 2px 2px 5px rgba(74, 74, 74, 0.591);
+}
+
+.cartSummary{
+    position: absolute;
+    background: linear-gradient(transparent 0%, white 40% );
+    bottom: 1em;
+    height: 20em;
+    width: 100%;
+    width: calc(100% - 2em);
+    display: flex;
+    justify-content: center;
+}
+
+.itemContainer{
+    overflow: auto;
+    height: calc(100% - 11em);
+}
+
+.clearAll{
+    margin-bottom: 1.5em;
+}
+
+.summaryInfo{
+    display: flex;
+    margin: .5em 0;
+    justify-content: space-between;
+}
+
+.summaryContainer{
+    position: absolute;
+    bottom: 1em;
+}
+
+.payNow{
+    transition: all .2s;
+    cursor: pointer;
+    color: white;
+    font-size: 1.3em;
+    background-color:#298BFD;
+    padding: .6em 3em;
+    margin: 1em 0 1em 0;
+    border-radius: 2em;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(74, 74, 74, 0.591);
+}
+
+.payNow:hover{
+    transform: scale(1.005);
+    background-color: #3e97fd;
+    box-shadow: 2px 2px 5px rgba(74, 74, 74, 0.591);
+}
+  
+
+.totNos{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.totPrice{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.totVal{
+    color: red;
+}

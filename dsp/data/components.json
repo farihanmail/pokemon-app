@@ -1,0 +1,42 @@
+{
+  "dsp_spec_version": "0.93",
+  "last_updated_by": "",
+  "last_updated": "2022-03-30T17:34:16.000Z",
+  "entities": [
+    {
+      "id": "1696eaba-59cc-4017-a431-48d56e354ac3",
+      "class": "component",
+      "type": "page",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "renditions": [],
+      "name": "Background",
+      "tags": [],
+      "last_updated": "2023-05-30T05:13:24.359Z",
+      "last_updated_by": ""
+    },
+    {
+      "id": "c965d400-8273-4469-bca8-b78e61060380",
+      "class": "component",
+      "type": "page",
+      "related_entity_ids": [
+        "md.sys.color.surface",
+        "md.sys.color.on-surface",
+        "md.sys.typescale.title-large.font",
+        "md.sys.typescale.title-large.weight"
+      ],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "renditions": [],
+      "name": "Navbar",
+      "tags": [],
+      "last_updated": "2023-05-30T05:10:57.871Z",
+      "last_updated_by": ""
+    }
+  ]
+}

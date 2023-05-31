@@ -1,0 +1,24 @@
+.body{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: var(--md-sys-color-background);
+    z-index: -1;
+    overflow: auto;
+}
+
+.cardContainer{
+    position: absolute;
+    width: calc(100% - 80px);
+    height: auto;
+    margin: 40px;
+    padding-bottom: 150px;
+    top: 197px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
